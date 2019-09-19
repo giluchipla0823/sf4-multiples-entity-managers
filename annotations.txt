@@ -1,0 +1,18 @@
+# Paquetes instalados
+- composer req orm
+- composer config extra.symfony.allow-contrib true
+- composer require jms/serializer-bundle
+- composer require sensio/framework-extra-bundle
+- composer req twig
+- composer require symfony/asset
+- composer require symfony/web-server-bundle --dev
+- composer require --dev symfony/var-dumper
+- composer require --dev symfony/maker-bundle
+
+# Generar YAML conexión books
+- php bin/console doctrine:mapping:import "App\Entity\Books" yml --filter="Books" --path=src/Resources/doctrine/books
+- php bin/console make:entity --regenerate "App\Entity\Books"
+
+# Generar YAML conexión authors
+- php bin/console doctrine:mapping:import "App\Entity\Authors" yml --path=src/Resources/doctrine/authors --em="authors"
+- php bin/console make:entity --regenerate "App\Entity\Authors"
