@@ -20,6 +20,15 @@ doctrine:
                     charset: utf8mb4
                     collate: utf8mb4_unicode_ci
                 url: '%env(resolve:DATABASE_AUTHORS_URL)%'
+            editorials:
+                # configure these for your database server
+                driver: 'pdo_mysql'
+                server_version: '5.7'
+                charset: utf8mb4
+                default_table_options:
+                    charset: utf8mb4
+                    collate: utf8mb4_unicode_ci
+                url: '%env(resolve:DATABASE_EDITORIALS_URL)%'
 
     orm:
         auto_generate_proxy_classes: '%kernel.debug%'
@@ -31,8 +40,8 @@ doctrine:
                 mappings:
                     Books:
                         is_bundle: false
-                        type: yml
-                        dir: '%kernel.project_dir%/src/Resources/doctrine/books'
+                        type: annotation
+                        dir: '%kernel.project_dir%/src/Entity/Books'
                         prefix: 'App\Entity\Books'
                         alias: Books
             authors:
@@ -42,6 +51,16 @@ doctrine:
                     Authors:
                         is_bundle: false
                         type: yml
-                        dir: '%kernel.project_dir%/src/Resources/doctrine/authors'
+                        dir: '%kernel.project_dir%/src/Resources/config/doctrine/authors'
                         prefix: 'App\Entity\Authors'
                         alias: Authors
+            editorials:
+                connection: editorials
+                naming_strategy: doctrine.orm.naming_strategy.underscore
+                mappings:
+                    Editorials:
+                        is_bundle: false
+                        type: xml
+                        dir: '%kernel.project_dir%/src/Resources/config/doctrine/editorials'
+                        prefix: 'App\Entity\Editorials'
+                        alias: Editorials

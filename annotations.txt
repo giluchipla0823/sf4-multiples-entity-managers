@@ -9,10 +9,14 @@
 - composer require --dev symfony/var-dumper
 - composer require --dev symfony/maker-bundle
 
-# Generar YAML conexión books
-- php bin/console doctrine:mapping:import "App\Entity\Books" yml --filter="Books" --path=src/Resources/doctrine/books
+# Generar Annotation conexión books
+- php bin/console doctrine:mapping:import "App\Entity\Books" annotation --filter="Books" --path=src/Entity/Books
 - php bin/console make:entity --regenerate "App\Entity\Books"
 
 # Generar YAML conexión authors
-- php bin/console doctrine:mapping:import "App\Entity\Authors" yml --path=src/Resources/doctrine/authors --em="authors"
+- php bin/console doctrine:mapping:import "App\Entity\Authors" yml --path=src/Resources/config/doctrine/authors --em="authors"
 - php bin/console make:entity --regenerate "App\Entity\Authors"
+
+# Generar XML conexión editorials
+- php bin/console doctrine:mapping:import "App\Entity\Editorials" xml --path=src/Resources/config/doctrine/editorials --em="editorials"
+- php bin/console make:entity --regenerate "App\Entity\Editorials"
