@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a564a1bf-72c2-4623-a594-497543b29419" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sf4-multiples-entity-managers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sf4-multiples-entity-managers.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotations.txt" beforeDir="false" afterPath="$PROJECT_DIR$/annotations.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Books/Book.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/doctrine/authors/Author.orm.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/config/doctrine/authors/Author.orm.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources/doctrine/books/Book.orm.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Api/ApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Api/BooksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Traits/ApiResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Traits/ApiResponse.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +15,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,28 +103,31 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Controller" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Controller/Api" />
       <recent name="$PROJECT_DIR$/src/Resources/config" />
       <recent name="$PROJECT_DIR$/src/Resources" />
       <recent name="$PROJECT_DIR$/src/Resources/doctrine" />
       <recent name="$PROJECT_DIR$/src/Resources/doctrine/config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Controller" />
-    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -142,34 +139,30 @@
       <option name="presentableId" value="Default" />
       <updated>1568915187676</updated>
       <workItem from="1568915189882" duration="7706000" />
-      <workItem from="1582091749207" duration="1073000" />
+      <workItem from="1582091749207" duration="1131000" />
+      <workItem from="1600900314145" duration="1580000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="227" key="com.intellij.ide.util.TipDialog" timestamp="1582091749748">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="530" y="396" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600901021803">
+      <screen x="0" y="23" width="3440" height="1338" />
     </state>
-    <state x="343" y="227" key="com.intellij.ide.util.TipDialog/1440.23.1600.877/0.23.1440.821@0.23.1440.821" timestamp="1582091749748" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1582092657759">
-      <screen x="0" y="23" width="1440" height="821" />
-    </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/1440.23.1600.877/0.23.1440.821@0.23.1440.821" timestamp="1582092657759" />
+    <state x="530" y="396" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.3440.1338@0.23.3440.1338" timestamp="1600901021803" />
   </component>
 </project>

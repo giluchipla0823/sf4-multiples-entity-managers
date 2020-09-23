@@ -28,7 +28,7 @@ services:
 
     my_custom_class:
         public: true
-        class:        jms_serializer
+        class:  jms_serializer
 #        arguments:    [serializer]
 
     # add more service definitions when explicit configuration is needed
