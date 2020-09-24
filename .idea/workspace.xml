@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a564a1bf-72c2-4623-a594-497543b29419" name="Default Changelist" comment="" />
+    <list default="true" id="a564a1bf-72c2-4623-a594-497543b29419" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sf4-multiples-entity-managers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sf4-multiples-entity-managers.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Api/BooksController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Api/BooksController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,13 +73,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
-      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
-      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/vendor/symfony/orm-pack" />
@@ -91,6 +97,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1R48p4y4xkz1znDK3DzmrJov7w5" />
@@ -134,7 +142,7 @@
       <updated>1568915187676</updated>
       <workItem from="1568915189882" duration="7706000" />
       <workItem from="1582091749207" duration="1131000" />
-      <workItem from="1600900314145" duration="1884000" />
+      <workItem from="1600900314145" duration="8280000" />
     </task>
     <servers />
   </component>
@@ -154,9 +162,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="530" y="396" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600901021803">
-      <screen x="0" y="23" width="3440" height="1338" />
+    <state x="624" y="345" key="#com.intellij.ide.util.MemberChooser" timestamp="1600902772074">
+      <screen x="0" y="23" width="3440" height="1334" />
     </state>
+    <state x="624" y="345" key="#com.intellij.ide.util.MemberChooser/0.23.3440.1334@0.23.3440.1334" timestamp="1600902772074" />
+    <state x="429" y="330" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600904037270">
+      <screen x="0" y="23" width="3440" height="1334" />
+    </state>
+    <state x="429" y="330" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.3440.1334@0.23.3440.1334" timestamp="1600904037270" />
+    <state x="530" y="395" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600902966258">
+      <screen x="0" y="23" width="3440" height="1334" />
+    </state>
+    <state x="530" y="395" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.3440.1334@0.23.3440.1334" timestamp="1600902966258" />
     <state x="530" y="396" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.3440.1338@0.23.3440.1338" timestamp="1600901021803" />
+    <state x="346" y="372" key="NewPhpClassDialog" timestamp="1600906636836">
+      <screen x="0" y="23" width="3440" height="1334" />
+    </state>
+    <state x="346" y="372" key="NewPhpClassDialog/0.23.3440.1334@0.23.3440.1334" timestamp="1600906636836" />
+    <state x="478" y="399" width="803" height="582" key="find.popup" timestamp="1600904746359">
+      <screen x="0" y="23" width="3440" height="1334" />
+    </state>
+    <state x="478" y="399" width="803" height="582" key="find.popup/0.23.3440.1334@0.23.3440.1334" timestamp="1600904746359" />
   </component>
 </project>
