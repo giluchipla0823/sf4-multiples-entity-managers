@@ -20,3 +20,10 @@
 # Generar XML conexión editorials
 - php bin/console doctrine:mapping:import "App\Entity\Editorials" xml --path=src/Resources/config/doctrine/editorials --em="editorials"
 - php bin/console make:entity --regenerate "App\Entity\Editorials"
+
+# Generar fichero .env.local.php
+- composer require symfony/dotenv
+- composer dump-env --empty dev
+- Copiar todos las configuraciones en el fichero ".env.local.php"
+- En el archivo "config/bootstrap.php" se puede observar que si el archivo ".env.local.php", pues, considerará
+  las configuraciones definidas en el.
